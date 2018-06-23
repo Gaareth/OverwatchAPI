@@ -1,5 +1,5 @@
 # OverwatchAPI
-Relative easy Overwatch statistics scraping Api
+Relative easy Overwatch statistics scraping Api for **Java**
 
 ## How to use ##
 1. [Download the Jar.](https://github.com/Gaareth/OverwatchAPI/blob/master/OverwatchAPI.jar?raw=true)
