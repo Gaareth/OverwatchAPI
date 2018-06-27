@@ -1,3 +1,4 @@
+package exceptions;
 
 public class NotAUserException extends Exception{
 	
@@ -11,3 +12,4 @@ public class NotAUserException extends Exception{
 	}
 
 }
+
