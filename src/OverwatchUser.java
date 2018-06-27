@@ -1,3 +1,4 @@
+package OverwatchAPI;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -5,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+import Exceptions.NoStatsAvailableException;
+import Exceptions.NotAUserException;
 
 public class OverwatchUser {
 	
@@ -649,7 +653,7 @@ public class OverwatchUser {
      *
      * @return The current solo kills as a String
      */
-	public String getSoloKills_Total() {
+	public String getSoloKillsTotal() {
 		
 		try {
 			
@@ -684,7 +688,7 @@ public class OverwatchUser {
      *
      * @return The current final Blows as an Integer
      */
-	public String getFinalBlows_Total() {
+	public String getFinalBlowsTotal() {
 		
 		try {
 			String str = "";
@@ -719,7 +723,7 @@ public class OverwatchUser {
      *
      * @return The current objective kills as an Integer
      */
-	public int getObjectiveKills_Total() {
+	public int getObjectiveKillsTotal() {
 		try {
 			return Integer.parseInt(objectiveKills_Total);
 
@@ -736,7 +740,7 @@ public class OverwatchUser {
      *
      * @return The current objective time as an Integer
      */
-	public int getObjectiveTime_Total() {
+	public int getObjectiveTimeTotal() {
 		
 	
 		try
@@ -780,7 +784,7 @@ public class OverwatchUser {
      *
      * @return The current objective time as an Integer
      */
-	public int getTimeOnFire_Total() {
+	public int getTimeOnFireTotal() {
 		
 		try
 		{
@@ -874,7 +878,7 @@ public class OverwatchUser {
      *
      * @return The eliminations average per Game
      */
-	public String getEliminations_Average() {
+	public String getEliminationsAverage() {
 		return (eliminations_Average);
 	}
 	
