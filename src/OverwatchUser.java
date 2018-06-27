@@ -17,26 +17,18 @@ public class OverwatchUser {
     private String timePlayed;
     private String skillRating;
     private String heroImage;
-    
-    
-
-
-
-	private String userImage;
+    private String userImage;
     
     //FEATURED
-    
     private String eliminations_KD;
     private String eliminations_kad;
     private String eliminations_Average;
    
     //PERFOMANCE
-    
     private String damage_Average;
     private String healing_Average;
    
     //COMBAT
-    
     private String soloKills_Total;
     private String eliminations_Total;
     private String damage_Total;
@@ -46,28 +38,20 @@ public class OverwatchUser {
     private String multiKills_Total;
     
     //DEATHS
-    
     private String enviromentalDeaths_Total;
     private String deaths_Total;
     private String deaths_Average;
-
-    
-
-    
+	
     //GAMES
-    
     private String gamesWon;
     private String gamesPlayed;
     private String objectiveTime_Total;
     private String TimeOnFire_Total;
 
     //ASSIST
-    
     private String healing_Total;
 
-
     //BEST
-    
     private String eliminations_Most;
     private String finalBlows_Most;
     private String damage_Most;
@@ -77,34 +61,17 @@ public class OverwatchUser {
     private String soloKills_Most;
     private String TimeOnFire_Most;
 
-    
-    
-    
-    
-
-
-   
-
-
-
-
-
-
-
     private long time;
-	private boolean competitive;
+    private boolean competitive;
 	
 	
     private String goldMedal;
     private String silverMedal;
     private String bronzeMedal;
-    
     private String amountMedals;
     
     
-    
-    
-	private WebDriver driver = new HtmlUnitDriver();
+    private WebDriver driver = new HtmlUnitDriver();
 
 	public long getTime() {
 		return time;
