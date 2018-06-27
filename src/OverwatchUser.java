@@ -1,4 +1,4 @@
-package OverwatchAPI;
+package api;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
