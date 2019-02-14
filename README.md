@@ -6,7 +6,7 @@ Easy Overwatch statistics Api for **Java**
 2. Add the Jar to your buildpath.
 3. Init the object OverwatchUser with the Overwatch Name e.g (Username-BattleTag), the mode and optional the hero.
 
-##Example##
-```
-			OverwatchUser user = new OverwatchUser("delta-22515", false, "reaper");
+## Example ##
+``` java
+OverwatchUser user = new OverwatchUser("delta-22515", false, "reaper");
 ```
