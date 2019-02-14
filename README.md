@@ -8,5 +8,5 @@ Easy Overwatch statistics Api for **Java**
 
 ## Example ##
 ``` java
-OverwatchUser user = new OverwatchUser("delta-22515", false, "reaper");
+OverwatchUser user = new OverwatchUser("user-tag", competetiv, "Hero");
 ```
